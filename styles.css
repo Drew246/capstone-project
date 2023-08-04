@@ -1,0 +1,68 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  height: 1500px;
+  /* margin-left: 196px;
+  margin-right: 196px; */
+  background-image: url(images/desktop-bg-img.png);
+  background-size: contain;
+}
+
+.menu {
+  margin-left: 196px;
+  margin-right: 196px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+.hero {
+  height: 40px;
+  padding-top: 5px;
+}
+.ken {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.campaign {
+  border: solid #ec5242;
+  font-size: 15px;
+}
+.black {
+  color: #000000;
+}
+.red {
+  color: #ec5242;
+}
+
+#FB {
+  height: 24px;
+  width: 31px;
+  padding-top: 5px;
+  padding-right: 12px;
+}
+#twitter {
+  height: 25px;
+  padding-top: 5px;
+  padding-right: 0px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 100;
+  color: #ec5242;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  display: flex;
+  font-size: 65px;
+  font-weight: bolderbold;
+  font-family: "COCOGOOSE", sans-serif;
+  line-height: 9dvh;
+  color: #ec5242;
+}
