@@ -23,6 +23,10 @@ body {
 
 .mg-box {
   background-color: #ffffff28;
+  cursor: pointer;
+}
+.mg-box:hover {
+  border: 2px solid #fff;
 }
 
 .menu {
@@ -52,7 +56,7 @@ body {
 }
 
 #transparent {
-  background-image: url(/images/header-text.png);
+  background-image: url(/images/redOrange.png);
   -webkit-text-fill-color: transparent;
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -85,4 +89,8 @@ h1 {
   font-family: "COCOGOOSE", sans-serif;
   line-height: 9dvh;
   color: #ec5242;
+}
+
+#seewhole {
+  text-decoration: underline;
 }
