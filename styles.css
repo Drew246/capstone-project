@@ -2,12 +2,27 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-main {
+html,
+body {
+  overflow-x: hidden;
+}
+
+.main {
   height: 1500px;
   /* margin-left: 196px;
   margin-right: 196px; */
   background-image: url(images/desktop-bg-img.png);
   background-size: contain;
+}
+
+.program {
+  background-color: #272a31;
+  background-image: url(images/cross.svg);
+  background-size: 38px;
+}
+
+.mg-box {
+  background-color: #ffffff28;
 }
 
 .menu {
@@ -23,10 +38,7 @@ main {
   height: 40px;
   padding-top: 5px;
 }
-.ken {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .campaign {
   border: solid #ec5242;
   font-size: 15px;
@@ -36,6 +48,14 @@ main {
 }
 .red {
   color: #ec5242;
+  border-color: #ec5242 !important;
+}
+
+#transparent {
+  background-image: url(/images/header-text.png);
+  -webkit-text-fill-color: transparent;
+  background-clip: border-box;
+  -webkit-background-clip: text;
 }
 
 #FB {

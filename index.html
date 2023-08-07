@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Crypto Con</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
     />
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
+    <script defer type="text/javascript" src="/app.js"></script>
     <!-- <link rel="stylesheet" href="debug.css" /> -->
     <link rel="stylesheet" href="helpers.css" />
     <link rel="stylesheet" href="styles.css" />
@@ -47,38 +48,140 @@
     </section>
 
     <!-- navbar section -->
-    <section class="menu">
-      <div class="columns">
-        <div class="column is-two-fifths">
+
+    <nav
+      class="navbar pl-4 pr-4"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://google.com">
           <div class="logo">
             <span class="black">CC-</span>
             <span class="red">CON</span>
           </div>
-        </div>
+        </a>
 
-        <div class="column pl-0 pr-0">About</div>
-        <div class="column">Program</div>
-        <div class="column">Join</div>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-        <div class="column">Sponsor</div>
-        <div class="column">News</div>
-        <div class="column">
-          <div class="campaign">
-            <span class="red">Campaign</span>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start"></div>
+
+        <div class="navbar-end">
+          <a class="navbar-item"> About </a>
+
+          <a class="navbar-item"> Program </a>
+
+          <a class="navbar-item"> Join </a>
+          <a class="navbar-item"> Sponsor </a>
+          <a class="navbar-item"> News </a>
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-outlined red"> Campaign </a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <main>
-      "
-      <div class="container">
-        <p class="title is-block">"Hello Crypto Family"</p>
+    </nav>
+
+    <div class="main">
+      <div class="container pt-3">
+        <h2 class="title is-2 mt-0">Hello Crypto Family</h2>
         <h1>
-          CRYPTO CURRENCY <br />
-          GLOBAL CONFERENCE<br />
-          2023
+          <div id="transparent">
+            CRYPTO CURRENCY <br />
+            GLOBAL CONFERENCE<br />
+            2023
+          </div>
         </h1>
+        <section class="section pl-0 pr-0">
+          <div class="columns pt-3">
+            <div class="column">
+              <div class="box">
+                A joyfull celebration believing in the value of openness and
+                sharing creating a positive change with people from over 80
+                countries is atking palce in Octobar, in Lagos
+              </div>
+            </div>
+          </div>
+
+          <h3 class="subtitle is-3 mt-2">2023.10.15(THU) ~ 16(FRI) <br /></h3>
+          <p>@ National Museum of Nigeria, Art Center Lagos and more</p>
+        </section>
       </div>
-    </main>
+      <div class="program pb-6">
+        <div class="columns is-centered">
+          <div class="column is-narrow has-text-centered">
+            <h4 class="title mt-2 mb-1 has-text-centered">Main Program</h4>
+          </div>
+        </div>
+        <div class="columns is-centered has-text-centered">
+          <div class="column mr-1 ml-1 mt-1 is-narrow mg-box is-2">
+            <span class="icon mt-2">
+              <i class="fas fa-train has-text-white-bis"></i>
+            </span>
+
+            <h4 class="title is-4 mt-4">Home IoT</h4>
+
+            <div class="has-text-white-ter">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+              accusantium ipsam minima.
+            </div>
+          </div>
+
+          <div class="column mr-1 ml-1 mt-1 is-narrow mg-box is-2">
+            <span class="icon mt-2">
+              <i class="fas fa-train has-text-white-bis"></i>
+            </span>
+            <h4 class="title is-4 mt-1">Smart Outlet</h4>
+            <div class="has-text-white-ter">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+              accusantium ipsam minima.
+            </div>
+          </div>
+
+          <div class="column mr-1 ml-1 mt-1 is-narrow mg-box is-2">
+            <span class="icon mt-2">
+              <i class="fas fa-train has-text-white-bis"></i>
+            </span>
+            <h4 class="title is-4 mt-1">Home Automation</h4>
+            <div class="has-text-white-ter">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+              accusantium ipsam minima.
+            </div>
+          </div>
+
+          <div class="column mr-1 ml-1 mt-1 is-narrow mg-box is-2">
+            <span class="icon mt-2">
+              <i class="fas fa-train has-text-white-bis"></i>
+            </span>
+            <h4 class="title is-4 mt-1">Rocket Science</h4>
+            <div class="has-text-white-ter">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+              accusantium ipsam minima.
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column has-text-centered has-text-white-ter mt-3 mb-3">
+            <a href="" class="has-text-white-ter"> SEE THE WHOLE PROGRAM </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="speakers pb-6"></div>
+    </div>
   </body>
 </html>
