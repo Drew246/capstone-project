@@ -9,8 +9,6 @@ body {
 
 .main {
   height: 2500px;
-  /* margin-left: 196px;
-  margin-right: 196px; */
   background-image: url(images/desktop-bg-img.png);
   background-size: contain;
 }
@@ -25,25 +23,21 @@ body {
   background-color: #ffffff28;
   cursor: pointer;
 }
+
 .mg-box:hover {
   border: 2px solid #fff;
 }
+
 .aria {
   font-style: bold;
 }
-/* .menu {
-  margin-left: 196px;
-  margin-right: 196px;
-} */
-/* nav {
-  margin-left: 253px;
-  margin-right: 253px;
-} */
+
 .logo {
   font-size: 20px;
   font-weight: bold;
   display: flex;
 }
+
 .hero {
   height: 40px;
   padding-top: 5px;
@@ -53,9 +47,11 @@ body {
   border: solid #ec5242;
   font-size: 15px;
 }
+
 .black {
   color: #000000;
 }
+
 .red {
   color: #ec5242;
   border-color: #ec5242 !important;
@@ -74,6 +70,7 @@ body {
   padding-top: 5px;
   padding-right: 12px;
 }
+
 #twitter {
   height: 25px;
   padding-top: 5px;
