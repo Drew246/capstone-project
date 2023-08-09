@@ -18,6 +18,7 @@ body {
   background-image: url(images/cross.svg);
   background-size: 38px;
 }
+
 .partner {
   background-color: #272a31;
   background-size: 38px;
@@ -100,6 +101,21 @@ h1 {
   color: #ec5242;
 }
 
+h2 {
+  display: flex;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "COCOGOOSE", sans-serif;
+  line-height: 7vh;
+  color: #ec5242;
+}
 #seewhole {
   text-decoration: underline;
+}
+#about {
+  background-color: white;
+  font-size: 14px;
+  border: #edeff5 solid 1px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
