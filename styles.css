@@ -2,10 +2,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
 .main {
   height: 2500px;
@@ -84,7 +84,7 @@ body {
 h1 {
   display: flex;
   font-size: 65px;
-  font-weight: bold;
+  font-weight: 100;
   font-family: "COCOGOOSE", sans-serif;
   line-height: 9vh;
   color: #ec5242;
