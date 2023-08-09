@@ -26,9 +26,9 @@
   </head>
   <body>
     <!-- top banner -->
-    <section class="hero is-dark is-fixed-top">
-      <div class="columns is-flex">
-        <div class="column is-three-fifths"></div>
+    <section class="hero is-dark is-hidden-mobile">
+      <div class="columns is-inline-flex">
+        <div class="column is-four-fifths"></div>
         <div class="column is-narrow">
           <figure class="image is-24x24">
             <img src="images/facebook_f_64px.png" />
@@ -39,9 +39,9 @@
             <img src="images/twitter_64px.png" />
           </figure>
         </div>
-        <div class="column">English</div>
-        <div class="column">MyPage</div>
-        <div class="column">Logout</div>
+        <div class="column pr-2" id="eng">English</div>
+        <div class="column pl-0 pr-2" id="mypage">MyPage</div>
+        <div class="column pl-0" id="logout">Logout</div>
         <div class="column"></div>
         <div class="column"></div>
       </div>
@@ -50,14 +50,14 @@
     <!-- navbar section -->
 
     <nav
-      class="navbar pl-4 pr-4"
+      class="navbar pl-4 pr-4 is-flex-mobile"
       role="navigation"
       aria-label="main navigation"
     >
-      <div class="navbar-brand">
+      <div class="navbar-brand is-flex-mobile">
         <a class="navbar-item" href="https://google.com">
-          <div class="logo">
-            <span class="black">CC-</span>
+          <div class="logo is-hidden-mobile">
+            <span class="black">CCG-</span>
             <span class="red">CON</span>
           </div>
         </a>
@@ -188,7 +188,141 @@
         </div>
       </div>
 
-      <div class="speakers pb-6"></div>
+      <!-- speakers -->
+      <h4 class="title is-4 has-text-black has-text-weight-bold mb-6 has-text-centered">
+        Featured Speakers
+      </h4>
+    <div class="columns is-centered ">
+      <div class="column  is-one-fifth">
+        
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="images/speaker1.png">
+          </p>
+        </figure>
+        
+          <div class="content">
+            <p>
+              <strong>John Smith</strong> 
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros,  quis feugiat facilisis.
+            </p>
+          </div>
+          
+       
+        
+      </article>
     </div>
+    <div class="column  is-one-fifth">
+      
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <img src="images/speaker1.png">
+        </p>
+      </figure>
+      
+        <div class="content">
+          <p>
+            <strong>John Smith</strong> 
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros,  quis feugiat facilisis.
+          </p>
+        </div>
+        
+     
+      
+    </article>
+  </div>
+  </div>
+  <div class="columns is-centered ">
+    <div class="column is-narrow is-one-fifth">
+      
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <img src="images/speaker1.png">
+        </p>
+      </figure>
+      
+        <div class="content">
+          <p>
+            <strong>John Smith</strong> 
+            <br>
+            Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Proin ornare magna eros,<br>  quis feugiat facilisis.
+          </p>
+        </div>
+        
+     
+      
+    </article>
+  </div>
+  <div class="column is-narrow is-one-fifth">
+    
+  <article class="media">
+    <figure class="media-left">
+      <p class="image is-128x128">
+        <img src="images/speaker1.png">
+      </p>
+    </figure>
+    
+      <div class="content">
+        <p>
+          <strong>John Smith</strong> 
+          <br>
+          Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Proin ornare magna eros,<br>  quis feugiat facilisis.
+        </p>
+      </div>
+      
+   
+    
+  </article>
+</div>
+</div>
+<div class="columns is-centered">
+  <div class="column is-narrow is-one-fifth">
+    
+  <article class="media">
+    <figure class="media-left">
+      <p class="image is-128x128">
+        <img src="images/speaker1.png">
+      </p>
+    </figure>
+    
+      <div class="content">
+        <p>
+          <strong>John Smith</strong> 
+          <br>
+          Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Proin ornare magna eros,<br>  quis feugiat facilisis.
+        </p>
+      </div>
+      
+   
+    
+  </article>
+</div>
+<div class="column is-narrow is-one-fifth" >
+  
+<article class="media">
+  <figure class="media-left">
+    <p class="image is-128x128">
+      <img src="images/speaker1.png">
+    </p>
+  </figure>
+  
+    <div class="content">
+      <p>
+        <strong>John Smith</strong> 
+        <br>
+        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Proin ornare magna eros,<br>  quis feugiat facilisis.
+      </p>
+    </div>
+    
+ 
+  
+</article>
+</div>
+</div>
   </body>
 </html>

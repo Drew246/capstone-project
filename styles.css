@@ -8,7 +8,7 @@ body {
 }
 
 .main {
-  height: 1500px;
+  height: 2500px;
   /* margin-left: 196px;
   margin-right: 196px; */
   background-image: url(images/desktop-bg-img.png);
@@ -28,11 +28,17 @@ body {
 .mg-box:hover {
   border: 2px solid #fff;
 }
-
-.menu {
+.aria {
+  font-style: bold;
+}
+/* .menu {
   margin-left: 196px;
   margin-right: 196px;
-}
+} */
+/* nav {
+  margin-left: 253px;
+  margin-right: 253px;
+} */
 .logo {
   font-size: 20px;
   font-weight: bold;
