@@ -70,12 +70,12 @@ body {
 #twitter {
   height: 25px;
   padding-top: 5px;
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .title {
   font-size: 40px;
-  font: weight 100px;
+  font-weight: bold;
   color: #ec5242;
   margin-top: 100px;
   margin-bottom: 50px;
