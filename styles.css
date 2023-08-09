@@ -2,10 +2,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* html,
+html,
 body {
   overflow-x: hidden;
-} */
+}
 
 .main {
   height: 1962px;
@@ -101,15 +101,21 @@ h1 {
   color: #ec5242;
 }
 
-h2 {
+h3 {
+  padding-bottom: 0%;
+  margin-bottom: 0%;
   display: flex;
-  font-size: 50px;
   font-weight: normal;
   font-family: "COCOGOOSE", sans-serif;
-  line-height: 7vh;
-  color: #ec5242;
+  color: rgba(128, 128, 128, 0.744);
 }
 
+#location {
+  font-size: 15px;
+  font-weight: 20;
+  font-family: "COCOGOOSE", sans-serif;
+  color: rgba(128, 128, 128, 0.744);
+}
 #seewhole {
   text-decoration: underline;
 }
@@ -120,4 +126,23 @@ h2 {
   border: #edeff5 solid 1px;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+#contact {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+button {
+  color: white;
+  background-color: #ec5242;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.join {
+  display: flex;
+  justify-content: center;
 }
