@@ -8,7 +8,7 @@ body {
 } */
 
 .main {
-  height: 2500px;
+  height: 1962px;
   background-image: url(images/desktop-bg-img.png);
   background-size: contain;
 }
@@ -17,6 +17,16 @@ body {
   background-color: #272a31;
   background-image: url(images/cross.svg);
   background-size: 38px;
+}
+.partner {
+  background-color: #272a31;
+  background-size: 38px;
+}
+
+#underline {
+  content: "";
+  width: 20px;
+  border-bottom: 1px solid #ec5242;
 }
 
 .mg-box {
@@ -53,7 +63,7 @@ body {
   border-color: #ec5242 !important;
 }
 
-#transparent {
+.transparent {
   background-image: url(/images/redOrange.png);
   -webkit-text-fill-color: transparent;
   background-clip: border-box;
