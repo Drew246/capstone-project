@@ -12,10 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
     />
-    
+
     <script defer type="text/javascript" src="/app.js"></script>
     <!-- <link rel="stylesheet" href="debug.css" /> -->
-    
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />  -->
@@ -27,9 +27,9 @@
   </head>
   <body>
     <!-- top banner -->
-    <section class="hero is-dark is-hidden-mobile pr-4">
+    <section class="hero is-dark is-hidden-mobile pr-6">
       <div class="columns">
-        <div class="column is-11">
+        <div class="column is-offset-0 is-11">
           <ul>
             <li>
               <figure class="image is-24x24">
@@ -51,16 +51,11 @@
 
     <!-- navbar section -->
 
-    <nav id="nav is-flex"
-      class="navbar pl-4 pr-4 is-flex"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand is-flex">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
         <a class="navbar-item" href="https://google.com">
-          <div class="logo is-hidden-mobile">
-            <span class="black">CCG-</span>
-            <span class="red">CON</span>
+          <div class="logo">
+            <span class="black">CCG-</span><span class="red">CON</span>
           </div>
         </a>
 
@@ -69,7 +64,6 @@
           class="navbar-burger"
           aria-label="menu"
           aria-expanded="false"
-          data-target="navbarBasicExample"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -77,214 +71,226 @@
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu ">
-        <div class="navbar-start"></div>
-
-        <div class="navbar-end">
-          <a class="navbar-item" href="about.html"> About </a>
-
-          <a class="navbar-item"> Program </a>
-
-          <a class="navbar-item"> Join </a>
-          <a class="navbar-item"> Sponsor </a>
-          <a class="navbar-item"> News </a>
-
+      <div class="navbar-menu mr-6 pr-6">
+        <div class="navbar-end mr-6 pr-6">
+          <a class="navbar-item" href="about.html">About</a>
+          <a class="navbar-item">Program</a>
+          <a class="navbar-item">Join</a>
+          <a class="navbar-item">Sponsor</a>
+          <a class="navbar-item">News</a>
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-outlined red"> Campaign </a>
+              <a class="button is-outlined red">Campaign</a>
             </div>
           </div>
         </div>
       </div>
     </nav>
-    <main>
-    <div class="main">
-      <div class="container pt-3">
-        <h2 class="title is-3 mt-0">Hello Crypto Family</h2>
-         <h1>
-          <div class="transparent mt-0">
-            <p class="trans">
-            CRYPTO CURRENCY <br />
-            GLOBAL CONFERENCE<br />
-            2023</p>
+
+    <main class="container">
+      <div class="main">
+        <div class="container pt-3" id="hello">
+          <h2 class="title is-3 mt-0">Hello Crypto Family</h2>
+          <h1>
+            <div class="transparent mt-0">
+              <p class="trans">
+                CRYPTO CURRENCY <br />
+                GLOBAL CONFERENCE<br />
+                2023
+              </p>
+            </div>
+          </h1>
+          <section class="section pl-0 pr-0">
+            <div class="columns">
+              <div class="column is-6-desktop is-11-mobile is-small">
+                <div class="box">
+                  Welcome to the Global Cryptocurrency Conference for experts,
+                  and enthusiasts. Charting the future of digital currencies and
+                  blockchain technology.
+                </div>
+              </div>
+            </div>
+
+            <h3 class="subtitle is-3 mt-2">2023.10.15(THU) ~ 16(FRI) <br /></h3>
+            <p id="location">Las Vegas, Nevada</p>
+          </section>
+        </div>
+        <div class="program pl-5 pr-5">
+          <div class="columns is-centered">
+            <div class="column is-narrow has-text-centered">
+              <h4
+                class="title is-4 has-text-white mt-6 mb-6 under has-text-centered"
+                id="mainpg"
+              >
+                Main Program
+              </h4>
+            </div>
           </div>
-        </h1>
-        <section class="section pl-0 pr-0">
-          <div class="columns">
-            <div class="column is-6-desktop is-11-mobile is-small ">
-              <div class="box">
-                Welcome to the Global Cryptocurrency Conference for experts, and enthusiasts. Charting the future of digital currencies and blockchain technology.
+          <div class="columns is-centered mb-6 is-flex-desktop is-block-touch">
+            <div class="column mr-1 ml-0 mt-1 mg-box is-2-desktop is-12-touch">
+              <div class="columns is-vcentered is-flex-touch is-block-desktop">
+                <div class="column is-vcentered is-12-desktop is-3-touch">
+                  <span class="icon mt-2 is-large">
+                    <i class="fas fa-2x fa-cogs has-text-white-bis"></i>
+                  </span>
+                </div>
+                <div class="column is-12-desktop is-3-touch">
+                  <h4 class="title is-4 my-4">Defi</h4>
+                </div>
+                <div class="column is-12-desktop is-6-touch">
+                  <div class="has-text-white-ter">
+                    Decentralized Finance (DeFi): Innovations, Opportunities,
+                    and Challenges.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column mr-1 ml-0 mt-1 mg-box is-2-desktop is-12-touch">
+              <div class="columns is-vcentered is-flex-touch is-block-desktop">
+                <div class="column is-vcentered is-12-desktop is-3-touch">
+                  <span class="icon mt-2 is-large">
+                    <i class="fas fa-2x fa-coins has-text-white-bis"></i>
+                  </span>
+                </div>
+                <div class="column is-12-desktop is-3-touch">
+                  <h4 class="title is-4 my-4">NFTs</h4>
+                </div>
+                <div class="column is-12-desktop is-6-touch">
+                  <div class="has-text-white-ter">
+                    The Evolution of Non-Fungible Tokens (NFTs): Beyond Digital
+                    Art and into the Mainstream.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column mr-1 ml-0 mt-1 mg-box is-2-desktop is-12-touch">
+              <div class="columns is-vcentered is-flex-touch is-block-desktop">
+                <div class="column is-vcentered is-12-desktop is-3-touch">
+                  <span class="icon mt-2 is-large">
+                    <i
+                      class="fas fa-2x fa-lock has-text-white-bis is-medium"
+                    ></i>
+                  </span>
+                </div>
+                <div class="column is-12-desktop is-3-touch">
+                  <h4 class="title is-4 my-4">Regulation</h4>
+                </div>
+                <div class="column is-12-desktop is-6-touch">
+                  <div class="has-text-white-ter">
+                    Regulatory Landscape for Cryptocurrencies: Balancing Growth
+                    and Security.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column mr-1 ml-0 mt-1 mg-box is-2-desktop is-12-touch">
+              <div class="columns is-vcentered is-flex-touch is-block-desktop">
+                <div class="column is-vcentered is-12-desktop is-3-touch">
+                  <span class="icon mt-2 is-large">
+                    <i class="fas fa-2x fa-leaf has-text-white-bis"></i>
+                  </span>
+                </div>
+                <div class="column is-12-desktop is-3-touch">
+                  <h4 class="title is-4 my-4">Environmental Awareness</h4>
+                </div>
+                <div class="column is-12-desktop is-6-touch">
+                  <div class="has-text-white-ter">
+                    The Environmental Impact of Cryptomining: Sustainable
+                    Solutions for the Future
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column mr-1 ml-0 mt-1 mg-box is-2-desktop is-12-touch">
+              <div class="columns is-vcentered is-flex-touch is-block-desktop">
+                <div class="column is-vcentered is-12-desktop is-3-touch">
+                  <span class="icon mt-2 is-large">
+                    <i class="fas fa-2x fa-cogs has-text-white-bis"></i>
+                  </span>
+                </div>
+                <div class="column is-12-desktop is-3-touch">
+                  <h4 class="title is-4 my-4">Defi</h4>
+                </div>
+                <div class="column is-12-desktop is-6-touch">
+                  <div class="has-text-white-ter">
+                    Decentralized Finance (DeFi): Innovations, Opportunities,
+                    and Challenges.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <h3 class="subtitle is-3 mt-2">2023.10.15(THU) ~ 16(FRI) <br /></h3>
-          <p id="location">Las Vegas, Nevada</p>
+          <div class="join is-hidden-desktop-is-hidden-touch">
+            <button>Join CCG Conference</button>
+          </div>
+          <div class="columns is-centered">
+            <div class="column has-text-centered has-text-white-ter">
+              <a
+                href=""
+                class="has-text-white pt-6 is-hidden-mobile"
+                id="seewhole"
+              >
+                SEE THE WHOLE PROGRAM
+              </a>
+            </div>
+          </div>
+        </div>
+        <section id="speakers">
+          <!-- speakers -->
+          <h4 class="fspeak under has-text-black mb-6 has-text-centered">
+            Featured Speakers
+          </h4>
         </section>
-      </div>
-      <div class="program">
-        <div class="columns is-centered">
-          <div class="column is-narrow has-text-centered">
-            <h4
-              class="title is-4 has-text-white mt-6 mb-6 under has-text-centered"
-              id="mainpg"
-            >
-              Main Program
-            </h4>
-          </div>
-        </div>
-        <div class="columns is-centered has-text-centered is-flex-desktop is-block-touch">
 
-        <div class="column mr-1 ml-1 mt-1 mg-box is-2-desktop is-12-touch">
-          <div class="columns is-vcentered is-flex-touch is-block-desktop">
-            <div class="column is-vcentered is-12-desktop is-3-touch">
-              <span class="icon mt-2 is-large">
-                <i class="fas fa-2x fa-cogs has-text-white-bis"></i>
-              </span>
+        <div class="partner mt3 pt-3 mb-0 is-hidden-mobile">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h4
+                class="title under is-4 has-text-grey mt-5 mb-5 has-text-centered"
+              >
+                Partners
+              </h4>
             </div>
-            <div class="column  is-12-desktop is-3-touch">
-              <h4 class="title is-4 my-4 ">
-                Defi
-              </h4>   
-            </div>
-            <div class="column is-12-desktop is-6-touch">
-              <div class="has-text-white-ter">
-                Decentralized Finance (DeFi): Innovations, Opportunities, and Challenges.   
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column mr-1 ml-1 mt-1 mg-box is-2-desktop is-12-touch">
-          <div class="columns is-vcentered is-flex-touch is-block-desktop">
-            <div class="column is-vcentered is-12-desktop is-3-touch">
-              <span class="icon mt-2 is-large">
-                <i class="fas fa-2x fa-coins has-text-white-bis"></i>
-              </span>
-            </div>
-            <div class="column is-12-desktop is-3-touch">
-              <h4 class="title is-4 my-4 ">
-                NFTs
-              </h4>   
-            </div>
-            <div class="column is-12-desktop is-6-touch">
-              <div class="has-text-white-ter">
-                The Evolution of Non-Fungible Tokens (NFTs): Beyond Digital Art and into the Mainstream.    
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column mr-1 ml-1 mt-1 mg-box is-2-desktop is-12-touch">
-          <div class="columns is-vcentered is-flex-touch is-block-desktop">
-            <div class="column is-vcentered is-12-desktop is-3-touch">
-              <span class="icon mt-2 is-large">
-                <i class="fas fa-2x fa-lock has-text-white-bis	is-medium"></i>
-              </span>
-            </div>
-            <div class="column is-12-desktop is-3-touch">
-              <h4 class="title is-4 my-4 ">
-                Regulation
-              </h4>   
-            </div>
-            <div class="column is-12-desktop is-6-touch">
-              <div class="has-text-white-ter">
-                Regulatory Landscape for Cryptocurrencies: Balancing Growth and Security.   
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column mr-1 ml-1 mt-1 mg-box is-2-desktop is-12-touch">
-          <div class="columns is-vcentered is-flex-touch is-block-desktop">
-            <div class="column is-vcentered is-12-desktop is-3-touch">
-              <span class="icon mt-2 is-large">
-                <i class="fas fa-2x fa-leaf has-text-white-bis	"></i>
-              </span>
-            </div>
-            <div class="column  is-12-desktop is-3-touch">
-              <h4 class="title is-4 my-4 ">
-                Environmental Awareness
-              </h4>   
-            </div>
-            <div class="column is-12-desktop is-6-touch">
-              <div class="has-text-white-ter">
-                The Environmental Impact of Cryptomining: Sustainable Solutions for the Future    
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column mr-1 ml-1 mt-1 mg-box is-2-desktop is-12-touch">
-          <div class="columns is-vcentered is-flex-touch is-block-desktop">
-            <div class="column is-vcentered is-12-desktop is-3-touch">
-              <span class="icon mt-2 is-large">
-                <i class="fas fa-2x fa-cogs has-text-white-bis"></i>
-              </span>
-            </div>
-            <div class="column  is-12-desktop is-3-touch">
-              <h4 class="title is-4 my-4 ">
-                Defi
-              </h4>   
-            </div>
-            <div class="column is-12-desktop  is-6-touch">
-              <div class="has-text-white-ter ">
-                Decentralized Finance (DeFi): Innovations, Opportunities, and Challenges.   
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-    
-    
-        <div class="join is-hidden-desktop-is-hidden-touch">
-        <button> Join CCG Conference</button>
-      </div>
-        <div class="columns is-centered">
-          <div class="column has-text-centered has-text-white-ter  ">
-            <a href="" class="has-text-white pt-6 is-hidden-mobile" id="seewhole">
-              SEE THE WHOLE PROGRAM
-               </a>           
           </div>
         </div>
       </div>
-<section id="speakers">
-      <!-- speakers -->
-      <h4 class="fspeak  under has-text-black mb-6 has-text-centered">
-        Featured Speakers
-      </h4>
-</section>  
-      
-<footer class="footer">
-  <div class="partner  mt3 pt-3 mb-0 is-hidden-mobile">
-    <div class="columns is-centered">
-      <div class="column has-text-centered ">
-        <h4
-          class="title under is-4 has-text-grey mt-5 mb-5 hanvisible-s-text-centered ">
-          Partners
-        </h4>
-       </div>
-      
-    </div>
-  </div>
-  <div class="partners">
-    <img src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" alt="google logo" />
-    <img src="https://www.freepnglogos.com/uploads/netflix-tv-logo-png-9.png" alt="netflix tv logo png" />
-    <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-with-birds-symbol-icon-24.png" alt="twitter logo with birds symbol icon" />
-    <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-attempts-clarify-lack-google-cast-support-13.png" alt="spotify logo" />
-    <img src="https://www.freepnglogos.com/uploads/telegram-logo-11.png" alt="telegram logo" />
-</div>
+      <div class="partners">
+        <img
+          src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png"
+          alt="google logo"
+        />
+        <img
+          src="https://www.freepnglogos.com/uploads/netflix-tv-logo-png-9.png"
+          alt="netflix tv logo png"
+        />
+        <img
+          src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-with-birds-symbol-icon-24.png"
+          alt="twitter logo with birds symbol icon"
+        />
+        <img
+          src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-attempts-clarify-lack-google-cast-support-13.png"
+          alt="spotify logo"
+        />
+        <img
+          src="https://www.freepnglogos.com/uploads/telegram-logo-11.png"
+          alt="telegram logo"
+        />
+      </div>
 
-<div class="foot">
-<div class="logo pt-3 pl-6">
-  <span class="black">CCG-</span>
-  <span class="red">CON</span>
-  </div>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Proin ornare magna eros,quis feugiat facilisis.</p>
-</div>
-  
-</footer>
-</main>
-<script src="app.js"></script>
+      <footer class="footer-container">
+        <div class="footer-content">
+          <span class="brand">CCG-CON</span>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            ornare magna eros, quis feugiat facilisis.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>

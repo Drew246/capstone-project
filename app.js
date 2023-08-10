@@ -35,7 +35,7 @@ const speakersSection = document.getElementById('speakers');
 
 function generateSpeakerHTML(speaker) {
   return `
-        <div class="column is-4">
+        <div class="column is-5">
             <article class="media">
                 <figure class="media-left pb-5">
                     <p class="image is-128x128">
@@ -76,18 +76,11 @@ function addSpeakersToSection() {
 
 addSpeakersToSection();
 
-document.addEventListener('DOMContentLoaded', () => {
-  const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  if (navbarBurgers.length > 0) {
-    navbarBurgers.forEach((el) => {
-      el.addEventListener('click', () => {
-        const { target } = el.dataset;
-        const targetElement = document.getElementById(target);
-
-        el.classList.toggle('is-active');
-        targetElement.classList.toggle('is-active');
-      });
-    });
+document.querySelector('.navbar-burger').addEventListener('click', () => {
+  const menu = document.querySelector('.navbar-menu');
+  if (menu.classList.contains('active')) {
+    menu.classList.remove('active');
+  } else {
+    menu.classList.add('active');
   }
 });
