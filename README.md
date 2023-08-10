@@ -116,7 +116,9 @@ If you like this project you should follow me on GitHub: [@githubhandle](https:/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I want to thank Microverse for this opportunity.
+I would also like to acknowledge the creator Cindy Shin the author of the original design which we were tasked with replicating.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
