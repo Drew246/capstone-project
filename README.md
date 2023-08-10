@@ -86,6 +86,7 @@ You can deploy this project using a browser.
 ## 👥 Authors <a name="authors"></a>
 
 
+
 👤 Andrew Mccollin
 
 - GitHub: [@githubhandle](https://github.com/Drew246)
@@ -93,6 +94,19 @@ You can deploy this project using a browser.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+👤 Andrew Mccollin
+
+- GitHub: [@githubhandle](https://github.com/Drew246)
+- LinkedIn [LinkedIn](https://linkedin.com/in/andrew-mccollin)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -114,9 +128,15 @@ If you like this project you should follow me on GitHub: [@githubhandle](https:/
 
 
 
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse
+
+I want to thank Microverse for this opportunity.
+I would also like to acknowledge the creator Cindy Shin the author of the original design which we were tasked with replicating.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
